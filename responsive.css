@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@media (min-width:992px) {
+    .bg-container {
+        flex-direction: row;
+    }
+}
+
+.image-container {
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/best-service-stats-sm-bg.png');
+    height: 50vh;
+    max-width: 1000px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+@media (min-width:576px) {
+    .image-container {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width:768px) {
+    .image-container {
+        padding-top: 40px;
+    }
+}
+
+@media (min-width:992px) {
+    .image-container {
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/best-service-stats-lg-bg-v1.png');
+        width: 50vw;
+        height: 100vh;
+        padding-top: 160px;
+    }
+}
+
+.logo {
+    width: 55px;
+    height: 45px;
+    margin-top: 25px;
+}
+
+@media (min-width:576px) {
+    .logo {
+        width: 85px;
+        height: 70px;
+        margin-top: 48px;
+    }
+}
+
+@media (min-width:768px) {
+    .logo {
+        width: 120px;
+        height: 100px;
+        margin-top: 65px;
+    }
+}
+
+@media (min-width:992px) {
+    .logo {
+        width: 110px;
+        height: 80px;
+        margin-top: 50px;
+    }
+}
+
+.hotel-heading {
+    font-family: Open Sans;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+.caption {
+    font-family: Open Sans;
+    color: #F5F5F5;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 2px;
+}
+
+@media (min-width:576px) {
+    .hotel-heading {
+        font-size: 48px;
+    }
+
+    .caption {
+        font-size: 22px;
+    }
+}
+
+@media (min-width:768px) {
+    .hotel-heading {
+        font-size: 68px;
+    }
+
+    .caption {
+        font-size: 32px;
+    }
+}
+
+@media (min-width:992px) {
+    .hotel-heading {
+        font-size: 55px;
+    }
+
+    .caption {
+        font-size: 20px;
+    }
+}
+
+
+.content-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    padding: 25px;
+}
+
+.content-heading {
+    margin-top: 0px;
+    color: #12022f;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.description {
+    margin-top: 7px;
+    color: #594d6d;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.count {
+    color: #176fff;
+    font-size: 15px;
+    font-family: Open Sans;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.count-for {
+    margin-top: 0px;
+    color: #323f4b;
+    font-size: 15px;
+    font-family: Open Sans;
+    font-weight: 600;
+}
+
+.container-box {
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+@media (min-width:567px) {
+    .content-heading {
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 24px;
+    }
+
+    .container-box {
+        width: 200px;
+    }
+
+    .count {
+        font-size: 36px;
+    }
+
+    .count-for {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:768px) {
+    .content-heading {
+        font-size: 52px;
+    }
+
+    .description {
+        font-size: 32px;
+    }
+
+    .container-box {
+        width: 300px;
+    }
+
+    .count {
+        font-size: 48px;
+    }
+
+    .count-for {
+        font-size: 40px;
+    }
+}
+
+@media (min-width:992px) {
+    .content-container {
+        width: 50vw;
+    }
+
+    .call {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        padding-left: 30px;
+    }
+
+    .content-heading {
+        font-size: 55px;
+    }
+
+    .description {
+        font-size: 23px;
+    }
+
+    .container-box {
+        width: 140px;
+    }
+
+    .count {
+        font-size: 28px;
+    }
+
+    .count-for {
+        font-size: 30px;
+    }
+}
